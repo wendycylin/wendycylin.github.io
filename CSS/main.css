@@ -1,0 +1,37 @@
+#title {
+    text-align: center;
+}
+
+.profile_picture img {
+    width: 100px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.hero img {
+    width: 500px;
+    height: 400px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+footer {
+    border-top: solid 3px gray;
+}
+
+.list {
+    list-style: none;
+}
