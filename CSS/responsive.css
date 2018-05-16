@@ -23,7 +23,8 @@ footer {
 }
 
 .projects {
-    width: 33%;
+    width: 30%;
+    justify-content: space-between;
 }
 
 .projects img,
@@ -32,12 +33,11 @@ footer {
 }
 
 .contact_info {
-    width: 75%;
-    padding: 5px;
+    flex: 3;
 }
 
 .links {
-    width: 20%;
+    flex: 1;
 }
 
 @media (max-width:900px) {
@@ -48,18 +48,17 @@ footer {
         display: none;
     }
     .profile_picture {
-        width: 40%;
+        flex: 1;
         text-align: left;
     }
     .profile_info {
-        width: 55%;
+        flex: 2;
         text-align: right;
-        padding: 5px;
     }
     .projects {
-        width: 45%;
-        height: 45%;
-        padding: 5px;
+        width: 40%;
+        height: 40%;
+        justify-content: space-between;
     }
     .projects img,
     .project p {
@@ -70,10 +69,10 @@ footer {
 
 @media (min-width:901px) and (max-width:1000px) {
     #title {
-        width: 75%;
+        flex: 3;
     }
     .profile {
-        width: 25%;
+        flex: 1;
     }
     .profile_picture {
         display: none;
@@ -82,10 +81,10 @@ footer {
 
 @media (min-width:1001px) {
     #title {
-        width: 70%;
+        flex: 3;
     }
     .profile {
-        width: 30%;
+        flex: 1;
     }
     header,
     main,
