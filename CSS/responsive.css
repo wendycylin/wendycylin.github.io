@@ -1,5 +1,4 @@
 header,
-.hero,
 .profile,
 .gallery,
 footer {
@@ -9,13 +8,11 @@ footer {
 
 #title,
 .profile,
-.hero,
 .feature_work,
 .gallery {
     width: 100%;
 }
 
-.hero img,
 .profile_picture,
 .projects {
     display: block;
@@ -41,9 +38,6 @@ footer {
 }
 
 @media (max-width:900px) {
-    .hero {
-        display: none;
-    }
     #title {
         display: none;
     }
